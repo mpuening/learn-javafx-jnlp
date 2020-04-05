@@ -106,6 +106,8 @@ on the web site.
 You can do better by building an installer such as a DMG file for Mac, or an NSIS installer 
 for Windows.
 
+Also keep and eye out for this: https://openjdk.java.net/jeps/343
+
 ### DMG
 
 The `deployments/dmg` directory contains a script and resources to create a DMG file 
