@@ -106,6 +106,44 @@ on the web site.
 You can do better by building an installer such as a DMG file for Mac, or an NSIS installer 
 for Windows.
 
+### DMG
+
+The `deployments/dmg` directory contains a script and resources to create a DMG file 
+for the MacOS.
+
+To have icons for the installer (`helloworld.icns`), I used a set found on http://www.iconarchive.com
+
+Here is the information for the those icons, used in a non-commercial use:
+
+Title: Mac Launchpad Icon
+
+URL: http://www.iconarchive.com/show/simply-styled-icons-by-dakirby309/Mac-Launchpad-icon.html
+
+Author: http://www.iconarchive.com/artist/dakirby309.html
+
+Author URL: http://dakirby309.deviantart.com/
+
+License: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+To build the DMG, one needs to have the `create-dmg` command installed, which is easily 
+done via this brew command:
+
+```
+brew install create-dmg
+```
+
+This is the command to create the DMG file:
+
+```
+./deployments/dmg/create-dmg.sh
+```
+
+The file will be located at:
+
+```
+./deployments/dmg/HelloWorld-Installer.dmg
+```
+
 ## TODO
 
 Enhance the JavaFX example to do something non-trivial and use dependencies to ensure 

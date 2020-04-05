@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Just delegate to jlink script
+
+cd $(dirname -- "$0")
+../HelloWorld/bin/helloworld
