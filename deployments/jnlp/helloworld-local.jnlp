@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+	<information>
+		<title>Hello World Application</title>
+		<description>Hello World Demo Application</description>
+		<description kind="short">A demo of the capabilities
+			of the Java FX
+			User Interface.
+		</description>
+		<offline-allowed />
+	</information>
+	<security>
+		<all-permissions />
+	</security>
+	<resources>
+		<j2se version="11" />
+
+		<!-- j2se version="11" java-vm-args="- -module-path lib/javafx-base-14-mac.jar:lib/javafx-controls-14-mac.jar:lib/javafx-graphics-14-mac.jar - -add-modules javafx.controls" /-->
+		<!--  jar href="lib/javafx-base-14-mac.jar" /-->
+		<!--  jar href="lib/javafx-controls-14-mac.jar" /-->
+		<!--  jar href="lib/javafx-graphics-14-mac.jar " /-->
+
+		<jar href="lib/learn-javafxjnlp-0.0.1-SNAPSHOT.jar" />
+	</resources>
+	<application-desc main-class="io.github.learnjavafxjnlp.HelloWorld" />
+</jnlp>
