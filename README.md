@@ -151,4 +151,4 @@ The file will be located at:
 Enhance the JavaFX example to do something non-trivial and use dependencies to ensure 
 that the `shade` plug-in is working properly.
 
-Build installers for Mac (DMG), Windows (NSIS), and Linux.
+Build installers for Windows (NSIS) and Linux.
