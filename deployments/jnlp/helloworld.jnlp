@@ -13,7 +13,7 @@
 		<all-permissions />
 	</security>
 	<resources>
-		<j2se version="11" />
+		<j2se version="11.0.13" />
 
 		<!-- j2se version="11" java-vm-args="- -module-path lib/javafx-base-14-mac.jar:lib/javafx-controls-14-mac.jar:lib/javafx-graphics-14-mac.jar - -add-modules javafx.controls" /-->
 		<!--  jar href="lib/javafx-base-14-mac.jar" /-->

@@ -1,6 +1,8 @@
 Learn JavaFX and JNLP
 =====================
 
+[![Continuous Integration](https://github.com/mpuening/learn-javafx-jnlp/actions/workflows/ci.yml/badge.svg)](https://github.com/mpuening/learn-javafx-jnlp/actions/workflows/ci.yml)
+
 This project is my answer to what happened to Java Applets.
 
 Java Applets were once the rage for rich internet applications. You could do many fantastic 
